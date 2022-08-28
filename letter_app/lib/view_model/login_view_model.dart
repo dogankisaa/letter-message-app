@@ -8,7 +8,7 @@ class LoginViewModel extends BaseViewModel {
 
    startTyping() {
     typeStatus == LoginTypeEnums.Writing;
-   
+    notifyListeners();
   }
 
    stopTyping() {
